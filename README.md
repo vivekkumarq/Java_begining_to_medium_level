@@ -20,7 +20,7 @@ This project serves as a step-by-step journey for anyone looking to enhance thei
 
 ---
 
-## Topics Covered 📝
+## Topics that will be Cover in upcoming time and few are done Listed below 📝
 - **Basic Java Syntax**
 - **Control Statements (if, loops, switch)**
 - **Functions and Methods**
