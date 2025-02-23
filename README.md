@@ -1,6 +1,6 @@
 # Java: From Beginning to Medium Level 🚀
 
-Welcome to the **Java Beginning to Medium Level** repository! This repository contains Java practice programs and concepts designed for beginners to intermediate learners. It covers a variety of topics, from basic syntax to data structures and object-oriented programming (OOP).
+Welcome to the **Java Beginning to Medium Level** repository! This repository contains Java practice programs and concepts designed for beginners to intermediate learners. It covers a variety of topics, from basic syntax to data structures and object-oriented programming (OOP) and also **Leetcode Practice codes** .
 
 ---
 
@@ -12,7 +12,6 @@ Welcome to the **Java Beginning to Medium Level** repository! This repository co
 5. [Folder Structure](#folder-structure)
 6. [Contributing](#contributing)
 7. [License](#license)
-
 ---
 
 ## Introduction ✨
@@ -35,6 +34,7 @@ This project serves as a step-by-step journey for anyone looking to enhance thei
 - **File Handling**
 - **Multi-threading**
 - **Practice Programs**
+- **Leetcode Practice codes**
 
 ---
 
