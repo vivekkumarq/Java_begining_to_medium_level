@@ -25,7 +25,7 @@ public class ReverseVowels {
     }
 
     public static void main(String[] args) {
-        // ReverseVowels obj = new ReverseVowels();
+        
         System.out.println(reverseVowels("IceCreAm"));
         System.out.println(reverseVowels("leetcode")); 
     }
