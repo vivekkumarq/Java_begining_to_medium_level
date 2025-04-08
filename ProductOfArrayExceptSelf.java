@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
-
+        
         int[] answer = new int[n];
 
        
