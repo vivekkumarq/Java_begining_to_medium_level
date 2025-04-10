@@ -1,6 +1,7 @@
 package LeetcodePractice;
+
 public class StringCompressor {
-    public int compress(char[] chars) {
+    public static int compress(char[] chars) {
         int index = 0;  
         int i = 0;    
 
@@ -29,15 +30,14 @@ public class StringCompressor {
     }
 
     public static void main(String[] args) {
-        StringCompressor compressor = new StringCompressor();
 
         char[] chars1 = {'a','a','b','b','c','c','c'};
-        System.out.println(compressor.compress(chars1)); 
+        System.out.println(compress(chars1)); 
 
         char[] chars2 = {'a'};
-        System.out.println(compressor.compress(chars2)); 
+        System.out.println(compress(chars2)); 
 
         char[] chars3 = {'a','b','b','b','b','b','b','b','b','b','b','b','b'};
-        System.out.println(compressor.compress(chars3)); 
+        System.out.println(compress(chars3)); 
     }
 }
