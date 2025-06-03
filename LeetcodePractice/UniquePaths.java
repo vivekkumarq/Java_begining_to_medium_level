@@ -26,4 +26,5 @@ public class UniquePaths {
         System.out.println(up.uniquePaths(3, 7));
         System.out.println(up.uniquePaths(3, 2)); 
 }
+}
 
