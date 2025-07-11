@@ -2,9 +2,9 @@ package LeetcodePractice;
 
 public class ReverseOnlyLetters {
     public static void main(String[] args) {
-        System.out.println(reverseOnlyLetters("ab-cd")); // Output: "dc-ba"
-        System.out.println(reverseOnlyLetters("a-bC-dEf-ghIj")); // Output: "j-Ih-gfE-dCba"
-        System.out.println(reverseOnlyLetters("Test1ng-Leet=code-Q!")); // Output: "Qedo1ct-eeLg=ntse-T!"
+        System.out.println(reverseOnlyLetters("ab-cd")); 
+        System.out.println(reverseOnlyLetters("a-bC-dEf-ghIj")); 
+        System.out.println(reverseOnlyLetters("Test1ng-Leet=code-Q!")); 
     }
 
     public static String reverseOnlyLetters(String s) {
