@@ -5,13 +5,13 @@ import java.util.*;
 public class BaseballGame {
     public static void main(String[] args) {
         String[] ops1 = {"5","2","C","D","+"};
-        System.out.println(calPoints(ops1)); // Output: 30
+        System.out.println(calPoints(ops1)); 
 
         String[] ops2 = {"5","-2","4","C","D","9","+","+"};
-        System.out.println(calPoints(ops2)); // Output: 27
+        System.out.println(calPoints(ops2)); 
 
         String[] ops3 = {"1","C"};
-        System.out.println(calPoints(ops3)); // Output: 0
+        System.out.println(calPoints(ops3));
     }
 
     public static int calPoints(String[] ops) {
