@@ -2,7 +2,14 @@ package LeetcodePractice;
 
 public class CheckOnesSegment {
     public boolean checkOnesSegment(String s) {
-        return !s.contains("01") || s.lastIndexOf("01") == s.indexOf("01");
+        int blocks = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '1' && (i == 0 || s.charAt(i - 1) == '0')) {
+                blocks++;
+                if (blocks > 1) return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
