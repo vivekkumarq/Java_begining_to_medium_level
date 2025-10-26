@@ -21,7 +21,7 @@ public class ReplaceElementsWithGreatestOnRight {
         int[] result1 = replaceElements(arr1);
         System.out.print("Output: ");
         for (int num : result1) System.out.print(num + " ");
-    1
+    
 
         System.out.println();
 
