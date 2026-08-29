@@ -1,5 +1,7 @@
 package LeetcodePractice;
 
+// O(n) time, O(1) space. count where a block of 1s starts, more than one block means false
+// shorter way: return !s.contains("01");
 public class CheckOnesSegment {
     public boolean checkOnesSegment(String s) {
         int blocks = 0;
@@ -16,6 +18,8 @@ public class CheckOnesSegment {
         CheckOnesSegment sol = new CheckOnesSegment();
         System.out.println(sol.checkOnesSegment("1001"));
         System.out.println(sol.checkOnesSegment("110"));
+        System.out.println(sol.checkOnesSegment("1"));
+        System.out.println(sol.checkOnesSegment("101"));
     }
 }
 
