@@ -1,5 +1,5 @@
 package Java_DailyLearningPractice;
-public class loop {
+public class Loop {
     public static void main(String[] args) {
         int i=8; 
         while(i<=9)

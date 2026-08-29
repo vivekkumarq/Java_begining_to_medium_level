@@ -4,15 +4,17 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class HashMap {
+// LeetCode 706 - Design HashMap. named MyHashMap so it does not hide java.util.HashMap
+// put/get/remove average O(1), space O(n)
+public class MyHashMap {
       private static final int SIZE = 1000;
 
   
-    private List<Entry>[] table;
+    @SuppressWarnings("unchecked")
+    private final List<Entry>[] table = new List[SIZE];
 
     
-    public void MyHashMap() {
-        table = new List[SIZE];
+    public MyHashMap() {
         for (int i = 0; i < SIZE; i++) {
             table[i] = new LinkedList<>();
         }
@@ -29,7 +31,7 @@ public class HashMap {
 
    
     private int hash(int key) {
-        return key % SIZE;
+        return Math.floorMod(key, SIZE);
     }
 
 
@@ -70,7 +72,7 @@ public class HashMap {
 
 
     public static void main(String[] args) {
-        HashMap myHashMap = new HashMap();
+        MyHashMap myHashMap = new MyHashMap();
 
         myHashMap.put(1, 1); 
         myHashMap.put(2, 2);

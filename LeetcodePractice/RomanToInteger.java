@@ -2,6 +2,7 @@ package LeetcodePractice;
 import java.util.HashMap;
 import java.util.Map;
 
+// O(n) time, O(1) space. walk from the right, subtract when a smaller numeral sits before a bigger one
 public class RomanToInteger {
     public static int romanToInt(String s){
         Map<Character,Integer> romanMap = new HashMap<>();
@@ -32,7 +33,11 @@ public class RomanToInteger {
     }
 
     public static void main(String[] args) {
-        System.out.println(" Roman to integer " + romanToInt("MCMXCIV"));
+        System.out.println(romanToInt("III"));
+        System.out.println(romanToInt("IV"));
+        System.out.println(romanToInt("IX"));
+        System.out.println(romanToInt("LVIII"));
+        System.out.println(romanToInt("MCMXCIV"));
     }
     
 }

@@ -1,5 +1,6 @@
-    package LeetcodePractice;
-    public class BalancedStringPlaced {
+package LeetcodePractice;
+
+public class BalancedStringPlaced {
     public int balancedStringSplit(String s) {
         int balance = 0, count = 0;
         for (char c : s.toCharArray()) {
