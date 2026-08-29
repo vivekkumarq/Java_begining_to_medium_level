@@ -1,3 +1,5 @@
+package LeetcodePractice;
+
 public class Checkonesegment {
      public boolean checkOnesSegment(String s) {
       

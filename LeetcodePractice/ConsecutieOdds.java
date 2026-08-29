@@ -1,7 +1,7 @@
 package LeetcodePractice;
 
 public class ConsecutieOdds {
-      public static boolean threeConsecutiveOdds(int[] arr) {
+    public static boolean threeConsecutiveOdds(int[] arr) {
         int count = 0;
         for (int num : arr) {
             if (num % 2 != 0) {
@@ -19,5 +19,6 @@ public class ConsecutieOdds {
         System.out.println(threeConsecutiveOdds(arr1)); 
 
         int[] arr2 = {1, 2, 34, 3, 4, 5, 7, 23, 12};
-        System.out.println(threeConsecutiveOdds(arr2)); 
+        System.out.println(threeConsecutiveOdds(arr2));
+    }
 }
