@@ -1,18 +1,21 @@
 package LeetcodePractice;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
+// O(n) time, O(n) space. one pass, keep every number seen in a map and look for target - num
 public class TwoSum {
     public int[] twoSum(int[] nums,int target)
     {
-              for(int i =0;i<nums.length - 1;i++)
+        Map<Integer,Integer> seen = new HashMap<>();
+        for(int i = 0;i<nums.length;i++)
         {
-            for(int j= i+1;j<nums.length;j++)
+            Integer j = seen.get(target - nums[i]);
+            if(j != null)
             {
-                if(nums[i] + nums[j] == target)
-                {
-                    return new int[] {i,j};
-                }
+                return new int[] {j,i};
             }
+            seen.put(nums[i],i);
         }
         return new int[] {};
     }
@@ -20,8 +23,12 @@ public class TwoSum {
     public static void main(String[] args) {
         TwoSum twosum = new TwoSum();
         int[] nums1 = {2,7,11,15};
-        int target1 = 9;
-        System.out.println("Test1" + Arrays.toString(twosum.twoSum(nums1, target1))); 
-    }   
-}
+        System.out.println("Test1" + Arrays.toString(twosum.twoSum(nums1, 9)));
 
+        int[] nums2 = {3,2,4};
+        System.out.println("Test2" + Arrays.toString(twosum.twoSum(nums2, 6)));
+
+        int[] nums3 = {3,3};
+        System.out.println("Test3" + Arrays.toString(twosum.twoSum(nums3, 6)));
+    }
+}
