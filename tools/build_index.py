@@ -35,7 +35,7 @@ TOPICS = [
         BalancedStringPlaced BuddyStrings CheckOnesSegment
         ConsecutiveChar CountAsterisks CountBinarySubstrings DetectCapital
         FindTheDifference FirstOccurence GenerateTheString GetLuck GoatLatin
-        HasValidSubstring IsLongPressedName IsPrefixString LastWordLength
+        HasValidSubstring IsLongPressedName IsPrefixString
         LengthOfLastWord LicenseKeyFormatting MaxVowelConsonantFrequency
         MinimumMovesToConvertString NumberOfSegments NumDifferenceInt
         OccurrencesAfterBigram RearrangeSpaces ReformatPhoneNumber

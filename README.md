@@ -36,7 +36,7 @@ Or build everything at once:
 
 <!-- index:start -->
 
-241 solutions, grouped by the main technique each one uses.
+240 solutions, grouped by the main technique each one uses.
 
 [Arrays](#arrays) | [Strings](#strings) | [Hashing](#hashing) | [Two pointers](#two-pointers) | [Sliding window](#sliding-window) | [Prefix sum](#prefix-sum) | [Stack and queue](#stack-and-queue) | [Binary search](#binary-search) | [Sorting and greedy](#sorting-and-greedy) | [Heap](#heap) | [Linked lists](#linked-lists) | [Trees](#trees) | [Graphs, BFS and DFS](#graphs-bfs-and-dfs) | [Backtracking](#backtracking) | [Dynamic programming](#dynamic-programming) | [Math and bit manipulation](#math-and-bit-manipulation) | [Design](#design)
 
@@ -96,7 +96,6 @@ Or build everything at once:
 | Has Valid Substring | [HasValidSubstring.java](LeetcodePractice/HasValidSubstring.java) |
 | Is Long Pressed Name | [IsLongPressedName.java](LeetcodePractice/IsLongPressedName.java) |
 | Is Prefix String | [IsPrefixString.java](LeetcodePractice/IsPrefixString.java) |
-| Last Word Length | [LastWordLength.java](LeetcodePractice/LastWordLength.java) |
 | Length of Last Word | [LengthOfLastWord.java](LeetcodePractice/LengthOfLastWord.java) |
 | License Key Formatting | [LicenseKeyFormatting.java](LeetcodePractice/LicenseKeyFormatting.java) |
 | Max Score Split | [MaxScoreSplit.java](LeetcodePractice/MaxScoreSplit.java) |
